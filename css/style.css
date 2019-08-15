@@ -10,10 +10,10 @@
 html,body{
 	overflow: hidden;
 }
-body{
-	/*width:95vw;
-	height:95vh;*/
+
+body {
 	background-color:#555;
+	font-family:'ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック';
 }
 
 .navBox{
