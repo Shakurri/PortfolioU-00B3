@@ -63,6 +63,18 @@ body{
 	left:26vw;
 	transition:opacity 1s;
 }
+.likeBox{
+	width:9vw;
+	height:calc(100vh/3);
+	color:white;
+	position:fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	top:0;
+	left:26vw;
+	transition:opacity 1s;
+}
 .work1:hover{
 	text-decoration:underline;
 }
@@ -75,6 +87,21 @@ body{
 .work4:hover{
 	text-decoration:underline;
 }
+.like1:hover{
+	text-decoration:underline;
+}
+.like2:hover{
+	text-decoration:underline;
+}
+.like3:hover{
+	text-decoration:underline;
+}
+.like4:hover{
+	text-decoration:underline;
+}
+.like5:hover{
+	text-decoration:underline;
+}
 .underline{
 	text-decoration: underline;
 }
@@ -84,18 +111,21 @@ body{
 	flex-wrap: wrap;
 	position: absolute;
 	left:35vw;
-	width:60vw;
-	height:60vw;
+	width:100vh;
+	height:100vh;
 	transform-style: preserve-3d;
 	perspective: 60vw;
-	transform-origin:30vw 30vw -30vw;
+	transform-origin:50vh 50vh -50vh;
 }
 .cube{
 	/*width:calc(100vh/3);
 	height:calc(100vh/3);*/
-	width:20vw;
-	height:20vw;
+	width:calc(100vh/3);
+	height:calc(100vh/3);
 	border:solid 2px #000;
+	display: flex;
+	justify-content: space-around;
+	/*text-align:center;*/
 }
 .FF{
 	z-index:10;
@@ -103,14 +133,20 @@ body{
 
 
 .centerImg{
-	width:100%;
 	height:100%;
+}
+.centerImgC{
+	height:100%;
+}
+.centerImgP{
+	width:100%;
+	margin:12.5% 0;
 }
 .title{
 	text-decoration:underline;
 }
 .centerSY{
-	font-size: 25px;
+	font-size: 2.5vh;
 	width:100%;
 	height:100%;
 	color:black;
@@ -120,7 +156,7 @@ body{
   	position: relative;
 }
 .centerSY1{
-	font-size: 21px;
+	font-size: 2.2vh;
 	width:100%;
 	height:100%;
 	color:black;
@@ -131,7 +167,7 @@ body{
 }
 .centerST{
 	writing-mode: vertical-rl;
-	font-size: 25px;
+	font-size: 2.5vh;
 	width:100%;
 	height:100%;
 	color:black;
@@ -142,7 +178,7 @@ body{
 }
 .centerST1{
 	writing-mode: vertical-rl;
-	font-size: 18px;
+	font-size: 2vh;
 	width:100%;
 	height:100%;
 	color:black;
@@ -153,7 +189,7 @@ body{
 }
 .centerST2{
 	writing-mode: vertical-rl;
-	font-size: 40px;
+	font-size: 5vh;
 	width:100%;
 	height:100%;
 	color:black;
@@ -161,11 +197,10 @@ body{
   	justify-content: center;
   	align-items: center;
   	position: relative;
-  	top:-112%;
 }
 .centerST3{
 	writing-mode: vertical-rl;
-	font-size: 15px;
+	font-size: 2vh;
 	width:100%;
 	height:100%;
 	color:black;
@@ -174,174 +209,7 @@ body{
   	align-items: center;
   	position: relative;
 }
-.c1{
-	background-color: var(--w);
 
-}
-.c2{
-	background-color: var(--g);
-}
-.c3{
-	background-color: var(--r);
-}
-.c4{
-	background-color: var(--b);
-}
-.c5{
-	background-color: var(--w);
-}
-.c6{
-	background-color: var(--w);
-}
-.c7{
-	background-color: var(--w);
-}
-.c8{
-	background-color: var(--y);
-}
-.c9{
-	background-color: var(--w);
-}
-
-.c10{
-	background-color: var(--y);
-}
-.c11{
-	background-color: var(--y);
-}
-.c12{
-	background-color: var(--w);
-}
-.c13{
-	background-color: var(--w);
-}
-.c14{
-	background-color: var(--o);
-}
-.c15{
-	background-color: var(--g);
-}
-.c16{
-	background-color: var(--o);
-}
-.c17{
-	background-color: var(--w);
-}
-.c18{
-	background-color: var(--r);
-}
-
-.c19{
-	background-color: var(--r);
-}
-.c20{
-	background-color: var(--y);
-}
-.c21{
-	background-color: var(--w);
-}
-.c22{
-	background-color: var(--w);
-}
-.c23{
-	background-color: var(--r);
-}
-.c24{
-	background-color: var(--o);
-}
-.c25{
-	background-color: var(--o);
-}
-.c26{
-	background-color: var(--w);
-}
-.c27{
-	background-color: var(--y);
-}
-
-.c28{
-	background-color: var(--o);
-}
-.c29{
-	background-color: var(--o);
-}
-.c30{
-	background-color: var(--o);
-}
-.c31{
-	background-color: var(--o);
-}
-.c32{
-	background-color: var(--o);
-}
-.c33{
-	background-color: var(--o);
-}
-.c34{
-	background-color: var(--o);
-}
-.c35{
-	background-color: var(--o);
-}
-.c36{
-	background-color: var(--o);
-}
-
-.c37{
-	background-color: var(--b);
-}
-.c38{
-	background-color: var(--b);
-}
-.c39{
-	background-color: var(--b);
-}
-.c40{
-	background-color: var(--b);
-}
-.c41{
-	background-color: var(--b);
-}
-.c42{
-	background-color: var(--b);
-}
-.c43{
-	background-color: var(--b);
-}
-.c44{
-	background-color: var(--b);
-}
-.c45{
-	background-color: var(--b);
-}
-
-.c46{
-	background-color: var(--y);
-}
-.c47{
-	background-color: var(--y);
-}
-.c48{
-	background-color: var(--y);
-}
-.c49{
-	background-color: var(--y);
-}
-.c50{
-	background-color: var(--y);
-}
-.c51{
-	background-color: var(--y);
-}
-.c52{
-	background-color: var(--y);
-}
-.c53{
-	background-color: var(--y);
-}
-.c54{
-	background-color: var(--y);
-}
 .cW{
 	background-color: var(--w);
 }
@@ -361,203 +229,204 @@ body{
 	background-color: var(--r);
 }
 
+
 .Uu{
-	transform-origin:10vw 30vw -30vw;
+	transform-origin:calc(50vh/3) 50vh -50vh;
 	transform: rotateX(90deg);
 }
 .Um{
-	transform-origin:10vw 10vw -30vw;
+	transform-origin:calc(50vh/3) calc(50vh/3) -50vh;
 	transform: rotateX(90deg);
 }
 .Ud{
-	transform-origin:10vw -10vw -30vw;
+	transform-origin:calc(50vh/3) calc(-50vh/3) -50vh;
 	transform: rotateX(90deg);
 }
 .Du{
-	transform-origin:10vw 30vw -30vw;
+	transform-origin:calc(50vh/3) 50vh -50vh;
 	transform: rotateX(-90deg);
 }
 .Dm{
-	transform-origin:10vw 10vw -30vw;
+	transform-origin:calc(50vh/3) calc(50vh/3) -50vh;
 	transform: rotateX(-90deg);
 }
 .Dd{
-	transform-origin:10vw -10vw -30vw;
+	transform-origin:calc(50vh/3) calc(-50vh/3) -50vh;
 	transform: rotateX(-90deg);
 }
 .Ll{
-	transform-origin:30vw 10vw -30vw;
+	transform-origin:50vh calc(50vh/3) -50vh;
 	transform: rotateY(-90deg);
 }
 .Lc{
-	transform-origin:10vw 10vw -30vw;
+	transform-origin:calc(50vh/3) calc(50vh/3) -50vh;
 	transform: rotateY(-90deg);
 }
 .Lr{
-	transform-origin:-10vw 10vw -30vw;
+	transform-origin:calc(-50vh/3) calc(50vh/3) -50vh;
 	transform: rotateY(-90deg);
 }
 .Rl{
-	transform-origin:30vw 10vw -30vw;
+	transform-origin:50vh calc(50vh/3) -50vh;
 	transform: rotateY(90deg);
 }
 .Rc{
-	transform-origin:10vw 10vw -30vw;
+	transform-origin:calc(50vh/3) calc(50vh/3) -50vh;
 	transform: rotateY(90deg);
 }
 .Rr{
-	transform-origin:-10vw 10vw -30vw;
+	transform-origin:calc(-50vh/3) calc(50vh/3) -50vh;
 	transform: rotateY(90deg);
 }
 .Bl{
-	transform-origin:30vw 10vw -30vw;
+	transform-origin:50vh calc(50vh/3) -50vh;
 	transform: rotateY(180deg);
 }
 .Bc{
-	transform-origin:10vw 10vw -30vw;
+	transform-origin:calc(50vh/3) calc(50vh/3) -50vh;
 	transform: rotateY(180deg);
 }
 .Br{
-	transform-origin:-10vw 10vw -30vw;
+	transform-origin:calc(-50vh/3) calc(50vh/3) -50vh;
 	transform: rotateY(180deg);
 }
 .Uu.Ul{
-	transform-origin:30vw 30vw -30vw;
+	transform-origin:50vh 50vh -50vh;
 }
 .Uu.Uc{
-	transform-origin:10vw 30vw -30vw;
+	transform-origin:calc(50vh/3) 50vh -50vh;
 }
 .Uu.Ur{
-	transform-origin:-10vw 30vw -30vw;
+	transform-origin:calc(-50vh/3) 50vh -50vh;
 }
 .Um.Ul{
-	transform-origin:30vw 10vw -30vw;
+	transform-origin:50vh calc(50vh/3) -50vh;
 }
 .Um.Uc{
-	transform-origin:10vw 10vw -30vw;
+	transform-origin:calc(50vh/3) calc(50vh/3) -50vh;
 }
 .Um.Ur{
-	transform-origin:-10vw 10vw -30vw;
+	transform-origin:calc(-50vh/3) calc(50vh/3) -50vh;
 }
 .Ud.Ul{
-	transform-origin:30vw -10vw -30vw;
+	transform-origin:50vh calc(-50vh/3) -50vh;
 }
 .Ud.Uc{
-	transform-origin:10vw -10vw -30vw;
+	transform-origin:calc(50vh/3) calc(-50vh/3) -50vh;
 }
 .Ud.Ur{
-	transform-origin:-10vw -10vw -30vw;
+	transform-origin:calc(-50vh/3) calc(-50vh/3) -50vh;
 }
 
 .Du.Dl{
-	transform-origin:30vw 30vw -30vw;
+	transform-origin:50vh 50vh -50vh;
 }
 .Du.Dc{
-	transform-origin:10vw 30vw -30vw;
+	transform-origin:calc(50vh/3) 50vh -50vh;
 }
 .D.u.r{
-	transform-origin:-10vw 30vw -30vw;
+	transform-origin:calc(-50vh/3) 50vh -50vh;
 }
 .Dm.Dl{
-	transform-origin:30vw 10vw -30vw;
+	transform-origin:50vh calc(50vh/3) -50vh;
 }
 .Dm.Dc{
-	transform-origin:10vw 10vw -30vw;
+	transform-origin:calc(50vh/3) calc(50vh/3) -50vh;
 }
 .Dm.Dr{
-	transform-origin:-10vw 10vw -30vw;
+	transform-origin:calc(-50vh/3) calc(50vh/3) -50vh;
 }
 .Dd.Dl{
-	transform-origin:30vw -10vw -30vw;
+	transform-origin:50vh calc(-50vh/3) -50vh;
 }
 .Dd.Dc{
-	transform-origin:10vw -10vw -30vw;
+	transform-origin:calc(50vh/3) calc(-50vh/3) -50vh;
 }
 .Dd.Dr{
-	transform-origin:-10vw -10vw -30vw;
+	transform-origin:calc(-50vh/3) calc(-50vh/3) -50vh;
 }
 
 .Lu.Ll{
-	transform-origin:30vw 30vw -30vw;
+	transform-origin:50vh 50vh -50vh;
 }
 .Lu.Lc{
-	transform-origin:10vw 30vw -30vw;
+	transform-origin:calc(50vh/3) 50vh -50vh;
 }
 .Lu.Lr{
-	transform-origin:-10vw 30vw -30vw;
+	transform-origin:calc(-50vh/3) 50vh -50vh;
 }
 .Lm.Ll{
-	transform-origin:30vw 10vw -30vw;
+	transform-origin:50vh calc(50vh/3) -50vh;
 }
 .Lm.Lc{
-	transform-origin:10vw 10vw -30vw;
+	transform-origin:calc(50vh/3) calc(50vh/3) -50vh;
 }
 .Lm.Lr{
-	transform-origin:-10vw 10vw -30vw;
+	transform-origin:calc(-50vh/3) calc(50vh/3) -50vh;
 }
 .Ld.Ll{
-	transform-origin:30vw -10vw -30vw;
+	transform-origin:50vh calc(-50vh/3) -50vh;
 }
 .Ld.Lc{
-	transform-origin:10vw -10vw -30vw;
+	transform-origin:calc(50vh/3) calc(-50vh/3) -50vh;
 }
 .Ld.Lr{
-	transform-origin:-10vw -10vw -30vw;
+	transform-origin:calc(-50vh/3) calc(-50vh/3) -50vh;
 }
 
 .Ru.Rl{
-	transform-origin:30vw 30vw -30vw;
+	transform-origin:50vh 50vh -50vh;
 }
 .Ru.Rc{
-	transform-origin:10vw 30vw -30vw;
+	transform-origin:calc(50vh/3) 50vh -50vh;
 }
 .Ru.Rr{
-	transform-origin:-10vw 30vw -30vw;
+	transform-origin:calc(-50vh/3) 50vh -50vh;
 }
 .Rm.Rl{
-	transform-origin:30vw 10vw -30vw;
+	transform-origin:50vh calc(50vh/3) -50vh;
 }
 .Rm.Rc{
-	transform-origin:10vw 10vw -30vw;
+	transform-origin:calc(50vh/3) calc(50vh/3) -50vh;
 }
 .Rm.Rr{
-	transform-origin:-10vw 10vw -30vw;
+	transform-origin:calc(-50vh/3) calc(50vh/3) -50vh;
 }
 .Rd.Rl{
-	transform-origin:30vw -10vw -30vw;
+	transform-origin:50vh calc(-50vh/3) -50vh;
 }
 .Rd.Rc{
-	transform-origin:10vw -10vw -30vw;
+	transform-origin:calc(50vh/3) calc(-50vh/3) -50vh;
 }
 .Rd.Rr{
-	transform-origin:-10vw -10vw -30vw;
+	transform-origin:calc(-50vh/3) calc(-50vh/3) -50vh;
 }
 .F.u.l{
-	transform-origin:30vw 30vw -30vw;
+	transform-origin:50vh 50vh -50vh;
 }
 .F.u.c{
-	transform-origin:10vw 30vw -30vw;
+	transform-origin:calc(50vh/3) 50vh -50vh;
 }
 .F.u.r{
-	transform-origin:-10vw 30vw -30vw;
+	transform-origin:calc(-50vh/3) 50vh -50vh;
 }
 .F.m.l{
-	transform-origin:30vw 10vw -30vw;
+	transform-origin:50vh calc(50vh/3) -50vh;
 }
 .F.m.c{
-	transform-origin:10vw 10vw -30vw;
+	transform-origin:calc(50vh/3) calc(50vh/3) -50vh;
 }
 .F.m.r{
-	transform-origin:-10vw 10vw -30vw;
+	transform-origin:calc(-50vh/3) calc(50vh/3) -50vh;
 }
 .F.d.l{
-	transform-origin:30vw -10vw -30vw;
+	transform-origin:50vh calc(-50vh/3) -50vh;
 }
 .F.d.c{
-	transform-origin:10vw -10vw -30vw;
+	transform-origin:calc(50vh/3) calc(-50vh/3) -50vh;
 }
 .F.d.r{
-	transform-origin:-10vw -10vw -30vw;
+	transform-origin:calc(-50vh/3) calc(-50vh/3) -50vh;
 }
 .F{
 	z-index: 15;
@@ -571,6 +440,13 @@ body{
 
 .hide{
 	opacity: 0.0;
+}
+.hideS{
+	opacity: 0.1;
+}
+.conE{
+	transition-delay:opacity 3s;
+	transition:opacity 5s;
 }
 .rotL_F{
 	transition:0.4s;
@@ -605,3 +481,21 @@ body{
 	transform: rotateX(0deg);
 }
 
+
+.cong{
+	position: fixed;
+	left:35vw;
+	width:100vh;
+	height:100vh;
+	font-size: 12vh;
+	color:black;
+	z-index: 100;
+	text-align:center;
+	line-height: 100vh;
+
+	transition-delay:opacity 3s;
+	transition:opacity 3s;
+}
+.conghide{
+	opacity: 0.5;
+}
